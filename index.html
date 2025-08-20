@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <title>EarnFromVillage</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Government Schemes, Online Earning Tips, Digital Marketing & YouTube Guide for Villagers.">
+  <meta name="keywords" content="Government Schemes, Online Earning, Digital Marketing, YouTube Guide, Village, Rural India, Earn From Village">
+  <meta name="author" content="EarnFromVillage Team">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="favicon.ico">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="brand">EarnFromVillage</div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="#news" class="menu-link">News</a></li>
+      <li><a href="#schemes" class="menu-link">Schemes</a></li>
+      <li><a href="#youtube" class="menu-link">YouTube</a></li>
+      <li><a href="about.html" class="menu-link">About Us</a></li>
+      <li><a href="privacy.html" class="menu-link">Privacy Policy</a></li>
+      <li><a href="disclaimer.html" class="menu-link">Disclaimer</a></li>
+      <li><a href="contact.html" class="menu-link">Contact</a></li>
+    </ul>
+    <!-- Search Button -->
+    <form id="search-form" class="search-box">
+      <input type="text" id="search-input" placeholder="Search..." aria-label="Search">
+      <button type="submit" id="search-btn" title="Search">
+        <img src="search.svg" alt="Search" width="20" height="20" style="vertical-align:middle;">
+      </button>
+    </form>
+    <button id="theme-toggle">🌙</button>
+  </nav>
+
+  <!-- WhatsApp & Telegram Join Popup (small round) -->
+  <div class="join-popup">
+    <a href="https://wa.me/919876543210" target="_blank" class="join-btn whatsapp" aria-label="Join WhatsApp">
+      <img src="whatsapp.svg" alt="WhatsApp" width="24" height="24">
+    </a>
+    <a href="https://t.me/earnfromvillage" target="_blank" class="join-btn telegram" aria-label="Join Telegram">
+      <img src="telegram.svg" alt="Telegram" width="24" height="24">
+    </a>
+  </div>
+
+  <!-- Floating Ask a Question Button -->
+  <button id="ask-btn" title="Ask a Question">❓</button>
+  <!-- Back to Top Button -->
+  <button id="top-btn" title="Back to Top">↑</button>
+
+  <!-- Hero Section -->
+  <header class="hero" id="home">
+    <div class="hero-content">
+      <h1>EarnFromVillage</h1>
+      <p class="tagline">Your ultimate guide to government schemes, online earning opportunities, and digital growth from rural areas</p>
+      <div class="hero-buttons">
+        <a href="#youtube" class="btn primary menu-link">Watch Latest Videos</a>
+        <a href="#schemes" class="btn secondary menu-link">Browse Schemes</a>
+      </div>
+    </div>
+    <!-- Newsletter -->
+    <form class="newsletter-form">
+      <input type="email" id="newsletter-email" placeholder="अपना ईमेल डालें" required>
+      <button type="submit" class="btn small primary">Subscribe for Updates</button>
+    </form>
+    <div id="newsletter-msg"></div>
+  </header>
+
+  <!-- Trending Posts (Animated) -->
+  <div class="trending-wrapper">
+    <div class="trending-title">🔥 Trending Posts:</div>
+    <div class="trending-marquee">
+      <span class="trending-post glow">PM Kisan Yojana Updates</span>
+      <span class="trending-post glow">Skill India Mission New Courses</span>
+      <span class="trending-post glow">Mudra Loan Application Tips</span>
+      <span class="trending-post glow">YouTube Earning Tricks 2025</span>
+      <span class="trending-post glow">Digital Marketing for Villages</span>
+    </div>
+  </div>
+
+  <!-- Recent Posts Section -->
+  <section class="recent-posts" id="news">
+    <h2>Recent Posts</h2>
+    <div class="posts-grid" id="recent-posts">
+      <!-- Cards will be loaded here by JS -->
+    </div>
+  </section>
+
+  <!-- AdSense Banner 728x90 -->
+  <div class="adsense-banner adsense-728x90">
+    <span>AdSense Banner 728x90 Placeholder</span>
+  </div>
+
+  <!-- Government Schemes -->
+  <section class="schemes-section" id="schemes">
+    <h2>Government Schemes</h2>
+    <div class="schemes-grid">
+      <div class="scheme-card">
+        <h3>PM Kisan Yojana</h3>
+        <p>किसानों को आर्थिक सहायता देने के लिए सरकार की योजना।</p>
+        <a href="#" class="btn primary menu-link">Apply Now</a>
+      </div>
+      <div class="scheme-card">
+        <h3>Skill India Mission</h3>
+        <p>युवा और वयस्कों के लिए कौशल विकास प्रशिक्षण कार्यक्रम।</p>
+        <a href="#" class="btn primary menu-link">Learn More</a>
+      </div>
+      <div class="scheme-card">
+        <h3>Mudra Yojana</h3>
+        <p>छोटे व्यवसायों के लिए लोन पाने की सरकारी योजना।</p>
+        <a href="#" class="btn primary menu-link">Apply Now</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- AdSense Banner 300x250 -->
+  <div class="adsense-banner adsense-300x250">
+    <span>AdSense Banner 300x250 Placeholder</span>
+  </div>
+
+  <!-- Latest YouTube Videos -->
+  <section class="youtube-section" id="youtube">
+    <h2>Latest YouTube Videos</h2>
+    <div class="youtube-grid">
+      <div class="youtube-card">
+        <img src="https://img.youtube.com/vi/VIDEO_ID_1/hqdefault.jpg" alt="Video Thumbnail">
+        <div class="youtube-info">
+          <p>गांव में YouTube से कमाई कैसे करें</p>
+          <span>12K views · 14 Aug 2025</span>
+        </div>
+      </div>
+      <div class="youtube-card">
+        <img src="https://img.youtube.com/vi/VIDEO_ID_2/hqdefault.jpg" alt="Video Thumbnail">
+        <div class="youtube-info">
+          <p>सरकारी योजना पर वीडियो बनाएं</p>
+          <span>8K views · 10 Aug 2025</span>
+        </div>
+      </div>
+      <div class="youtube-card">
+        <img src="https://img.youtube.com/vi/VIDEO_ID_3/hqdefault.jpg" alt="Video Thumbnail">
+        <div class="youtube-info">
+          <p>Digital Marketing Basics</p>
+          <span>6K views · 5 Aug 2025</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Modal Popup (for menu clicks + Ask a Question) -->
+  <div id="menu-modal" class="modal">
+    <div class="modal-content">
+      <span class="close-modal">&times;</span>
+      <h2 id="modal-title">Feature Coming Soon!</h2>
+      <p id="modal-msg">यह विकल्प जल्द ही उपलब्ध होगा या आप इसकी detail पेज पर पहुँच चुके हैं।</p>
+      <div id="modal-extra"></div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-container">
+      <div class="footer-col">
+        <h3>About EarnFromVillage</h3>
+        <p>EarnFromVillage ग्रामीण भारत के लिए सरकारी योजनाएं, ऑनलाइन कमाई, डिजिटल मार्केटिंग और YouTube गाइड्स का भरोसेमंद स्रोत है।</p>
+        <div class="footer-social">
+          <a href="https://wa.me/919876543210" target="_blank" title="WhatsApp"><img src="whatsapp.svg" alt="" width="24"></a>
+          <a href="https://t.me/earnfromvillage" target="_blank" title="Telegram"><img src="telegram.svg" alt="" width="24"></a>
+          <a href="https://youtube.com/" target="_blank" title="YouTube"><img src="youtube.svg" alt="" width="24"></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="index.html#schemes">Government Schemes</a></li>
+          <li><a href="index.html#news">Online Earning Tips</a></li>
+          <li><a href="index.html#youtube">YouTube Channel</a></li>
+          <li><a href="index.html#news">Digital Marketing</a></li>
+          <li><a href="index.html#news">Skill Development</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+          <li><a href="disclaimer.html">Disclaimer</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h3>Contact Information</h3>
+        <ul>
+          <li>Email: <a href="mailto:info@earnfromvillage.in">info@earnfromvillage.in</a></li>
+          <li>Phone: <a href="tel:+911234567890">+91 12345 67890</a></li>
+          <li>Address: ग्राम पंचायत रोड, जिला XYZ, भारत</li>
+          <li>Support: 24/7</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      © 2025 EarnFromVillage. All rights reserved.
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
